@@ -10,4 +10,4 @@ You need to write your own server with game data and client using this service.
 
 All comments in code written in russian.
 
-![GameSpy emulation in work](relative/image.png?raw=true "GameSpy emulation in work")
+![GameSpy emulation in work](image.png?raw=true "GameSpy emulation in work")
