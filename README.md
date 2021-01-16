@@ -9,3 +9,5 @@ For demo reasons it uses only fake data to show, how it works.
 You need to write your own server with game data and client using this service.
 
 All comments in code written in russian.
+
+![GameSpy emulation in work](relative/image.png?raw=true "GameSpy emulation in work")
