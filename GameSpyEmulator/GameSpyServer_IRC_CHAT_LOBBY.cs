@@ -94,7 +94,7 @@ namespace GameSpyEmulator
         {
             LogForUser($"RemoteUtm {values[2]}");
 
-            _emulationAdapter.OnRemoteUserHasLauncherGame();
+            _emulationAdapter.OnRemoteUserHasLaunchedTheGame();
             SendToClientChat($":{_user} UTM #GSP!{_gameGSkey}!{_enteredLobbyHash} :{values[2]}\r\n");
         }
     }

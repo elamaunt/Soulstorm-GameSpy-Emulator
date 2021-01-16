@@ -67,7 +67,7 @@ namespace GameSpyEmulator
         /// <summary>
         /// Вызывается, когда пришло сообщение о старте игры. Актуально только для авто
         /// </summary>
-        void OnRemoteUserHasLauncherGame();
+        void OnRemoteUserHasLaunchedTheGame();
 
         /// <summary>
         /// Необходимо оповестить всех в лобби о том, что игрок ливнул через 

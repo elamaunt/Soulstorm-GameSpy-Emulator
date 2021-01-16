@@ -10,6 +10,18 @@ namespace GameSpyEmulator
     {
         static void Main(string[] args)
         {
+            try
+            {
+                Console.WriteLine("Trying to update Hosts file");
+                HostsFixer.Fix("127.0.0.1");
+                Console.WriteLine("Hosts file modified");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Can not modify hosts file. Try run this app with admin rights");
+                return;
+            }
+
             var server = new GameSpyServer(new ConsoleTestAdapter());
 
             server.Start();
@@ -120,7 +132,7 @@ namespace GameSpyEmulator
             {
             }
 
-            public void OnRemoteUserHasLauncherGame()
+            public void OnRemoteUserHasLaunchedTheGame()
             {
                 // Activate game process
             }
