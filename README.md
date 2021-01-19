@@ -1,4 +1,4 @@
-# Sousltorm-GameSpy-Emulator
+# Soulstorm-GameSpy-Emulator
 Simple GameSpy service for Warhammer 40k Soulstorm. You can create your own GameSpy server or client.
 
 What supported:
